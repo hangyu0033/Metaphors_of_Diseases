@@ -1,0 +1,319 @@
+p{
+    font-family: Cambria, Georga, Cochin,Times, 'Times New Roman', serif;
+    font-size:15pt;
+    width:50%;
+    margin-left:25%; 
+    margin-bottom: 20px;
+    line-height:20pt;
+    text-align: justify;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:120%;
+    font-size: 30pt;
+    margin:auto; 
+    font-weight: bolder;
+    font-style: italic;
+    width:50%;
+    text-align:center;
+    margin-top:60px;
+    margin-bottom:20px ;
+}
+h2,h3{
+    display:block;
+    font-size:20pt;
+    margin-left:25%;
+    text-align:left;
+    word-wrap: break-word;
+    max-width:55%;
+    overflow: hidden;
+}
+.footnote{
+    font-size:15px;
+    width:50%;
+    margin-left:25%; 
+    line-height:25px;
+    text-align: justify;
+    color:gray;
+    opacity:0.7;
+}
+img{
+    display:block;
+    width: 60%;
+    margin-bottom: 15px;
+    border-radius: 3%;
+    margin:auto; 
+}
+figcaption{
+    display:block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:grey;
+    opacity: 0.8;
+    width:50%;
+    margin-left:25%;
+    margin-top: 10px;
+    margin-bottom:15px;
+}
+blockquote{
+    display:block;
+    text-align:left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18pt;
+}
+#toc{
+    position: fixed;
+    margin: 20px !important;
+    width:30px;
+    font-family: "Avenir";
+    opacity:0.3;
+    line-height:160%;}
+#line{
+    display: block;
+    width: 60%;
+    height:500px;
+    margin-left:auto;
+    margin-right:auto;}
+#map{
+    display: block;
+    width: 100vw;
+    height:550px;
+    margin-left:0%;
+    margin-right:0%;
+}
+#trend{
+    display: block;
+    width: 100%;
+    height:550px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#buttongroup{
+    display:none;
+    background-color: white;
+    border-radius: 7px;
+    position:fixed;bottom:0px;right:10%;
+    width:4%;
+    margin-left:25%;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+button{
+    display:block;
+    border:none; 
+    border-radius: 20%; 
+    font-size: 20px;
+    margin-right:20px;
+    width:50px;
+    height:40px;
+    background-color: transparent;
+    color:gray;
+    cursor: pointer;}
+.jp{
+    border:none; 
+    border-radius: 20%; 
+    font-size: 20px;
+    width:50px;
+    height:40px;
+    background-color: transparent;
+    color:gray;
+    cursor: pointer;
+    margin-right:5%;
+    right:0;
+}
+button:hover{ 
+    background-color:rgba(220,220,220,0.4);
+}
+button:active{ 
+    background-color:rgba(220,220,220,0.7);
+}
+.jp:hover{
+    background-color:rgba(220,220,220,0.4);
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+#mysite,.hvr-grow:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+#click-me.active{
+    content: "";
+    color:white;
+    background: #007AFF;
+    size:unset;
+    margin:unset;
+    transition: all 1s;
+}
+#click-me.before:hover{ 
+    background-color:rgba(220,220,220,0.4);
+}
+#click-me.before{
+    float:left;
+    border:none; 
+    border-radius: 20%; 
+    font-size: 20px;
+    margin: unset;
+    width:50px;
+    height:40px;
+    background-color: white;
+    color:gray;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+#copy{
+    width:150px;
+    height:50px;
+    background-color:#007AFF;
+    opacity:0.7;
+    position:fixed;bottom:50px;right:20%;
+    border-radius:4px;
+    font-family:'Helvetica';
+    padding-left:5px;
+    color:white;
+    font-size:100%;
+    display:none
+}
+#author{
+    font-family:Arial;
+    font-weight:bold;
+    margin:auto;
+}
+#date{
+    font-weight:lighter;
+    color:gray;
+    margin:auto
+}
+#mysite:link {text-decoration:underline;color:black;}
+#mysite:visited {color:black;} /*用户已访问过的链接显示黑色*/
+.quote{
+    display:flexbox;
+    width:75%;
+    margin:auto;
+}
+.source{
+    display:flex;
+    justify-content: flex-end;
+    font-family:Arial;
+    font-size:100%;
+    color:gray;
+    opacity: 0.6;
+    text-align:right;
+    margin-right:0%;
+}
+#header{
+    width:75%;
+    margin:auto;
+    border-radius: 3%;
+    max-width: max-content;
+}
+#ack{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:80%;
+    opacity: 80%;
+}
+#dropcap{
+    float:left;line-height:85%;width: .7em;font-size: 400%;
+}
+
+@media screen and (max-width: 700px) {
+    #dropcap{
+        font-size:2.3vh;
+        line-height:3vh;
+        width:unset;
+        float:none;
+    }
+    p {
+       font-size: 2.1vh; 
+       line-height:3vh;
+    }
+    h1,h2,h3{
+        text-align:left;
+        margin:auto;
+    }
+    h1{
+        margin-top:5vh;
+        margin-bottom:2vh;
+        font-size:7vw;
+        width:90%;
+        max-width:100vw;
+    }
+    h2{
+        font-size:5vw;
+        width:90%;
+        max-width:82vw;
+        margin-bottom:2vh;
+    }
+    p{
+        width:fit-content;
+        margin:9vw;
+    }
+    figcaption{
+        width:fit-content;
+        margin:5vw;
+        font-size: 4vw; 
+    }
+    .jp{
+        display:none;
+    }
+    img{
+        width:85vw;
+    }
+    #header{
+        width:100%;
+        margin:0;
+        border-radius: 0;
+        max-width: max-content;
+    }
+    #authordate{
+        display:flex;
+        width:80%;
+        margin-left:10%;
+    }
+    #author{
+        justify-content: flex-start;
+        display: flex;
+    }
+    #date{
+        flex:1;
+        justify-content: flex-end;
+        display: flex;
+    }
+    blockquote{
+        display:block;
+        text-align:left;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 2.5vh;
+    }
+    *{
+        margin:0;
+        padding: 0;
+    }
+    .footnote{
+        font-size:2.2vh;
+        width:80%;
+        margin: 10%;
+        line-height:unset;
+        text-align: justify;
+        color:gray;
+        opacity:0.7;
+    }
+    #line{
+        width: 100%;
+    }
+}

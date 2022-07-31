@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/c6f9001cfb.js" crossorigin="anonymous"></script>
+    <script src="file:///Users/Fanhy/node_modules/clipboard/dist/clipboard.min.js"></script>
+    <meta charset="utf-8"></meta>
+    <link rel="stylesheet" href="assets/CSS/stylesheet.css"></link>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+</head>
+<body>
+<h1 >Metaphors of Dieseases: HIV in Data, Media Coverage and Rumors</h1>
+<img id="header" src="assets/img/virus.png"></img>
+<figcaption>"The plague metaphor is an essential vehicle of the most pessimistic reading of the epidemiological prospects. From classic fiction to the latest journalism, the standard plague story is of inexorability, inescapability." Susan Sontag (1989)</figcaption>
+<div id="authordate">
+    <p id="author">By&nbsp;<a href="https://hangyu.site" id="mysite" style="font-family:Arial">Hangyu Fan</a>, Rui Ai, Fangqing Cai</p>
+<p id="date">July 2, 2022</p>
+</div>
+<div id="jump" style="float:right;position:fixed;right:15px;bottom:30px">
+<button id="up" class="jp hvr-grow"" ><i class="fa-solid fa-angles-up"></i></button>
+<button id="share" class="jp hvr-grow" onclick="window.location.href='#buttongroup'" ><i class="fa-solid fa-arrow-up-from-bracket"></i></button>
+</div>
+<script>
+    document.getElementById('up').onclick = function(){
+        window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+                });
+    }
+</script>
+<script>
+    window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            var y = $(this).scrollTop();
+            if (y > 250) {
+                $('#jump').fadeIn();
+            }
+            else {
+                $('#jump').fadeOut();
+            }
+        var y = $(this).scrollTop();
+    }
+</script>
+
+<p><span id="dropcap">A</span>ccording to UNAIDS and the World Health Organization, HIV has claimed the lives of more than 30 million people since it was first confirmed in 1981. HIV has also become one of the most devastating epidemics in history. The latest figures show that around 75 million people around the world are living with HIV, 32 million have died, and there are an average of 7,000 new cases every day.</p>
+<p>Since HIV was first discovered in China in 1985, the number of HIV infection in China has been increasing year by year. By the end of 2020, there are currently 1.05 million HIV-infected patients in China. As a serious infectious disease, HIV has brought great physical pain to patients. It takes <b>the most important CD4 T lymphocytes in the human immune system as the main target of attack</b>, and destroys the cells in large quantities, making the human body lose its immune function. Therefore, the human body is easily infected with various diseases, thus malignant tumors can occur. There is still a lack of effective drugs to cure HIV infection worldwide. In addition to physical pain, HIV-related discrimination has impacted the concept and psychology of the entire society, and has also brought huge adverse effects on the economy and society.</p>
+<h2>Shadows Emerge: How HIV Spreads Around the World</h2>
+<p>The world's first recorded patient of HIV was called Mike, a 33-year-old professional model. In October 1980, he began to have a fever and swollen lymph nodes in his neck and supraclavicular. Since then, he has experienced repeated fever, hair loss, continued weight loss, and difficulty in breathing. The doctor performed a chest X-ray and bronchoscopy for him. A large amount of Pneumocystis was found in Mike's lungs. This microbe will only attack advanced cancer patients who have an almost complete loss of their immune system. At the beginning of the discovery of HIV, the medical community knew very little about it. There was no cure, and the infected had to suffer to death without knowing what had happened. In the following four years, more than 70 countries reported their first HIV infections.</p>
+<img src="assets/img/patient.png"></img>
+<p>On June 3, 1985, an Argentine patient was admitted to the intensive care unit of Peking Union Medical College Hospital due to severe lung infection and respiratory failure. The patient, who resided in Los Angeles 15 years ago, had PCP pneumonia, an HIV-defining disease. The next day, the then deputy director of internal medicine, Professor Wang Aixia, diagnosed the Argentine patient as HIV-infected. He is the first case of HIV infection found in China. Unfortunately, in that era when there was barely any experience in HIV treatment, the HIV patient died soon due to ineffective rescue. In the following five years, HIV infection have been found one after another in China, mostly overseas Chinese and other foreigners. In 1988, China first discovered that its citizen were infected with HIV. Four hemophilia patients in Zhejiang were infected due to the use of imported coagulation factors.</p>
+<p>According to "China HIV Epidemiology Research Progress", as of the end of 2020, there were about 1.05 million HIV-infected people in China, with a cumulative death toll of 350,000. According to the Chinese Center for Disease Control and Prevention (CDC), there has been a <b>marked increase in the number of HIV infections among college students</b>. Annual growth in the number of newly diagnosed HIV-infected college students has ranged from 30%-50% over the past few years.</p>
+<iframe id="map" src="assets/html/infection.html" title="HIV Infection" frameborder="0" scrolling="no"></iframe>
+<p>At the beginning of the 1990s, the United States had the most infection cases. Sub-Saharan Africa was also the region with the most serious HIV infection, especially Ethiopia, Tanzania, Zimbabwe, and Malawi in East Africa. At the same time, the situation in Nigeria, Côte d'Ivoire and Western Sahara in West Africa was not optimistic. In Asia, Thailand had around 75,000 new cases in a year. Over the decade, the number of U.S. cases has slowed. While sub-Saharan Africa continues to deteriorate, South Africa has become the hardest hit area, and the situation in China and India also went worse. In 2003, the number of new HIV infections in China exceeded 60,000 for the first time, 180,000 in India, 530,000 in South Africa, 40,000 in the United States. In 2016, Russia and Brazil become the hardest hit areas except Africa.</p>
+<iframe id="line" src="assets/html/hiv_Death.html" title="HIV Death From 1990" frameborder="0" scrolling="no"></iframe>
+<p>In 1990, the number of HIV deaths was about 340,000, and it has grown rapidly since then, reaching a peak of 1.95 million in 2006, and has gradually slowed down since then, with a death toll of 950,000 in 2017.</p>
+<p> Sweetland and Zimbabwe, once afflicted by HIV, have seen their death toll drop significantly in recent years. At the same time, there was a sharp decline in the United States. Deaths in the U.S. peaked in 1995, plummeted in 1996, and have been slowly declining since then. In contrast, the situation in China is not optimistic. Since 1990, the annual death toll in China has <strong>continuously increased</strong>, and in 2016, it was close to 35,000.</p>
+<h2>Stigma: Media coverage of HIV</h2>
+<img src="assets/img/actup.png"></img>
+<p>Since the first discovery of HIV in the United States in June 1981, in addition to the treatment difficulties, the public's phobia about HIV and the stigmatization of the virus and the infected has gradually become a more serious social problem. The notorious names such as "super cancer", "20th century demon", "21st century plague", modern "Black Death", "flood beast", etc. "When it comes to HIV, journalists have more influence than doctors," said Dr. Peter Pate, executive director of the UN HIV Programme, at the Barcelona HIV Conference. It can be seen that the mass media plays a pivotal role in HIV prevention and control.</p>
+<div class="quote">
+    <blockquote style="float:left;">"Stigma and discrimination remain major problems for workers living with HIV."</blockquote>
+    <p class="source">International Labour Organization</p>
+</div>
+<p>The Greeks once coined the term "stigma" to refer to the somewhat unusual and disgraceful bodily markers used to reveal the moral status of the carrier, as an acquiescence that the public should refrain from interacting with others. Specifically, stigmatization reflects a one-way "named" power relationship between two groups of different social status, manifested as a special interactive relationship in which a high-status group imposes a bad impression on the other group. The interactive relationship continues to develop and eventually becomes a stigma process that solidifies reality. <b>Media discrimination</b> refers to the unbalanced distribution of media resources, unequal media discourse content, unclear awareness of media responsibility, and weakening of media social instruments due to factors such as interests, power, technology, and culture in the era of mass communication. problems, and the resulting prejudice and unfair treatment of socially disadvantaged groups and regions, the inequality of media discourse, and the imbalance of media interests.</p>
+<p>In the process of HIV reporting, the most obvious media discrimination is regional discrimination and discrimination against disadvantaged groups. The media uses a series of discriminatory titles such as "AIDS village", "AIDS girl", "AIDS orphan", "AIDS thief", etc. to stigmatize HIV patients, and cause misunderstanding and fear of the audience, which worsens HIV patients living conditions and hinder the prevention and treatment of HIV in society as a whole.</p>
+<p>By entering and searching for "AIDS", one can get all the related reports on the <a href="https://www.bjnews.com.cn">Beijing News</a> website in the past ten years.</p>
+<iframe id="trend" src="assets/html/beijingnews.html" title="Change of Reports" frameborder="0" scrolling="no"></iframe>
+<h2>Dilemma: HIV Prevention and Control in China</h2>
+<p>HIV is still an unconquered and still raging disease on a global scale. <b>This year, 40 years have passed since the first reported cases of HIV in the world in 1981</b>, but the disease is killing tens of thousands of people every year in sub-Saharan, Brazil, Russia, India and other countries and regions. In China, HIV is also a problem that cannot be underestimated. At the end of 2020, a total of 1.053 million Chinese people were infected with HIV, with a cumulative reported death of 351,000. The spread of HIV is widespread, and the spread of HIV in some areas of China is even more serious, with severe morbidity and mortality.</p>
+<p>Although HIV is still spreading and the death rate remains high, Chinese media reports have not paid enough attention to it. In 2019, the number of HIV infections and deaths reached a new high, but on the contrary the number of reports in the Beijing News even decreased compared with 2018, and showed a downward trend in the next three years, partly due to the overwhelming COVID-19 pandemic of course. Judging from the content of the media reports, the media reports only stay in routine reports, and do not have in-depth exploration and care for the HIV disease and its patients, and they also have a negative emotional attitude.</p>
+<p>In general, compared with the time when HIV first appeared and raged in the last century, China's media coverage of HIV has gradually turned to be objective, mature and rational, and has not conveyed fear of HIV to the society, but the still-existing problem is that the number of reports still remains relatively low. The coverage have also failed in educating the public and arousing their awareness of HIV prevention instead of phobia. At present, the powerful self-media on the Internet is often alarmist and fuelling the spread of HIV fear, which is suspected of deliberately smearing and stigmatizing the group of HIV patients.</p>
+<p>In whole, Chinese society's emotional inclination towards HIV patients is negative. According to the <a href="http://hkb980dd.pic44.websiteonline.cn/upload/13_f8oq.pdf">"Investigation Report on Discrimination of People Living with HIV in China"</a> issued by UNAIDS and the Ministry of Health of China on November 27, 2010, many people living with HIV have experienced unemployment, forced school leave, moving house, and all forms of discrimination, which is a huge harm to patients as well as their families. It not only deprives and damages the basic human rights of HIV patients, makes patients suffer from psychological pressure other than the disease, seriously hinders the effective treatment of the disease, but also leads to family breakdown and instability of social order</p>
+<div class="quote">
+    <blockquote>  "Health itself has finally been identified with these values, which are both religious and commercial. Health has become the proof of virtue, just as disease has become the proof of depravity. Cleanliness is second only to piety—the adage is taken literally. Religious interpretations of cholera declined as epidemics of cholera broke out in the nineteenth century."</blockquote>
+    <p class="source">Susan Sontag, Metaphors of Disease, 1978, p149-150</p>
+</div>
+<p>HIV virus natively carries a sense of guilt and shame, and represents physical and moral impurity. It was once seen as an infestation from Africa, or as germ warfare plotted by the United States. Metaphors about HIV are deeply embedded in our culture, society, race, politics and military. As Sontag said, because the body is not a battlefield, HIV patients are neither doomed victims nor social enemies. We do not have the right to fight back by any means, including those that are embedded in metaphors.■</p>
+<HR style="border: 0;height: 1px;background: #333;background-image: linear-gradient(to right, #fff, #333, #fff);width:80%">
+<h3 >Acknowledgement</h3>
+<p id="ack">This is the group assignment of my college course <i>Programming Language (2021-2022 Fall Semester)</i></p>
+<div class="footnote" style="font-family:Georgia, 'Times New Roman', Times, serif;line-height: 200%;">
+    <li><b>Hangyu Fan</b>: Mainly responsible for the data collection, cleaning and visualization of the first part of the HIV infection map, the number of HIV deaths and other charts; the second part of the media visualization (word cloud and sentiment analysis reported by Xinhua News Agency, Beijing News for ten years reporting trends since then); and finally consolidating the content into a Jupyter Notebook file.</li>
+    <li><b>Rui Ai</b>: Mainly responsible for data crawling and writing of files in the media part.</li>
+    <li><b>Fangqing Cai</b>: Mainly responsible for Zhihu crawlers, doing simple sentiment analysis on answers and writing files.</li>
+</div>
+</body>
+<script>
+    var clipboard = new ClipboardJS('.icon');
+    clipboard.on('success', function (e) {
+        console.log(e);
+      });
+    clipboard.on('error', function (e) {
+        console.log(e);
+      });
+</script>
+<div id="buttongroup" style="margin-bottom:30px">
+    <button class="icon hvr-grow" onclick="window.location.href='https://twitter.com/intent/tweet?text=Hello%20world'"><i class="fa-brands fa-twitter"></i></button>
+    <button class="icon hvr-grow"><i class="fa-brands fa-instagram"></i></button>
+    <button class="icon hvr-grow"><i class="fa-brands fa-facebook"></i></button>
+    <button class="icon hvr-grow"><i class="fa-brands fa-linkedin"></i></button>
+    <button class="icon hvr-grow" onclick="window.location.href='sms://?&body=Come%20and%20check%20Hangyu%27s quarantine%20diary%21';"><i class="fa-solid fa-message"></i></button>
+    <button class="icon hvr-grow" onclick="window.location.href='mailto://?&body=Come%20and%20check%20Hangyu%27s quarantine%20diary%21';"><i class="fa-solid fa-envelope"></i></button>
+    <button class="icon hvr-grow" id="click-me"><i class="fa-solid fa-link"></i></button>
+</div>
+<div style="height:10vh"></div>
+<script>
+    const btn = document.getElementById("click-me");
+    btn.onclick = function(){
+        btn.classList.remove("before");
+        btn.classList.add("active");
+        document.getElementsByClassName("fa-link")[0].className = "fa solid fa-check";
+        setTimeout(function back(){
+            btn.classList.toggle("before");
+            document.getElementsByClassName("fa-check")[0].className = "fa solid fa-link";
+        },5000);
+        navigator.clipboard.writeText("https://www.hangyu.fan");
+    }
+</script>
+<script>
+
+ </script>
+<script id="sharekit">
+    $("#share").click(function(){
+     $("#buttongroup").fadeToggle(1000);
+ });
+</script>
+
+</html>
