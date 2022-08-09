@@ -1,6 +1,6 @@
 p{
     font-family: Cambria, Georga, Cochin,Times, 'Times New Roman', serif;
-    font-size:15pt;
+    font-size:13.5pt;
     width:50%;
     margin-left:25%; 
     margin-bottom: 20px;
@@ -14,7 +14,7 @@ h1{
     margin:auto; 
     font-weight: bolder;
     font-style: italic;
-    width:50%;
+    width:80%;
     text-align:center;
     margin-top:60px;
     margin-bottom:20px ;
@@ -77,10 +77,11 @@ blockquote{
     margin-right:auto;}
 #map{
     display: block;
-    width: 100vw;
+    width: 90%;
     height:550px;
-    margin-left:0%;
-    margin-right:0%;
+    margin-left:5%;
+    margin-right:5%;
+    overflow:hidden;
 }
 #trend{
     display: block;
@@ -203,8 +204,7 @@ button:active{
     margin:auto;
 }
 .source{
-    display:flex;
-    justify-content: flex-end;
+    font-style: italic;
     font-family:Arial;
     font-size:100%;
     color:gray;
@@ -213,9 +213,9 @@ button:active{
     margin-right:0%;
 }
 #header{
-    width:75%;
+    width:100%;
     margin:auto;
-    border-radius: 3%;
+    border-radius: 0%;
     max-width: max-content;
 }
 #ack{
@@ -258,6 +258,12 @@ button:active{
         max-width:82vw;
         margin-bottom:2vh;
     }
+    h3{
+        font-size:5vw;
+        width:90%;
+        max-width:82vw;
+        margin-top:1vh;
+    }
     p{
         width:fit-content;
         margin:9vw;
@@ -276,22 +282,12 @@ button:active{
     #header{
         width:100%;
         margin:0;
-        border-radius: 0;
+        border-radius:0;
         max-width: max-content;
     }
     #authordate{
-        display:flex;
-        width:80%;
-        margin-left:10%;
-    }
-    #author{
-        justify-content: flex-start;
-        display: flex;
-    }
-    #date{
-        flex:1;
-        justify-content: flex-end;
-        display: flex;
+        display:block;
+        margin-left: auto;
     }
     blockquote{
         display:block;
@@ -315,5 +311,15 @@ button:active{
     }
     #line{
         width: 100%;
+    }
+    .source{
+        font-style: italic;
+        font-family:Arial;
+        font-size:2vh;
+        color:gray;
+        opacity: 0.6;
+        text-align:right;
+        margin-right:0%;
+        margin-top:1vh;
     }
 }
